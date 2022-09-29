@@ -1,0 +1,196 @@
+In adhardetails database:
+{
+    "adharNumber" : "857632290561",
+    "firstName" : "Suresh",
+    "lastName" :"Mallela",
+    "dateOfBirth" : "22-03-1987"
+}
+{
+"adharNumber" : "658986451516",
+firstName" : "Rahul",
+    "lastName" : "mallavarapu",
+"dateOfBirth" : "01-09-1990"
+}
+{
+    "adharNumber" : "658722309516",
+    "firstName" : "Ramesh",
+    "lastName" : "velluri",
+    "dateOfBirth" : "15-08-1993"
+}
+{
+    "adharNumber" : "695165872230",
+    "firstName" : "karthik",
+    "lastName" : "pasupuleti",
+    "dateOfBirth" : "15-08-1993"
+}
+{
+    "adharNumber" : "893456530936",
+    "firstName" : "Jackson",
+    "lastName" : "Smith",
+    "dateOfBirth" : "15-08-1993"
+}
+
+ {
+"adharNumber" : "658986451516",
+"firstName" : "kiran",
+"lastName" : "mallavarapu",
+    "dateOfBirth" : "23-09-2000"
+    }
+{
+ "adharNumber" : "683251170651"
+ "firstName" : "priya",
+    "lastName" : "thota",
+   "dateOfBirth" : "05-12-2000"
+
+}
+{
+"adharNumber" : "987429017629"
+"firstName" : "sashu",
+ "lastName" : "potla",
+ "dateOfBirth" : "09-05-2000"
+}
+**********************************************************************
+In customerdetails database:
+{
+    "accountNumber" : 868815505291,
+    "firstName" : "Suresh",
+    "lastName" :"Mallela",
+    "mobile" : 8980497165,
+    "email" : "suresh@gmail.com",
+    "pancardNumber" : "HBY908DS",
+    "adharNumber" : "857632290561",
+    "customerAddress" : {
+        "houseNumber":"8-72",
+        "street" : "babu Colony",
+        "state" : "AP"
+    }
+    
+}
+
+{
+    "accountNumber" : 91408854206,
+    "firstName" : "Ramesh",
+    "lastName" : "velluri",
+    "mobile" : 8000497165,
+    "email" : "ramesh@gmail.com",
+    "pancardNumber" : "HBO67RT",
+    "adharNumber" : "658722309516",
+    "customerAddress" : {
+        "houseNumber":"8-7/121",
+        "street" : "rajiv Colony",
+        "state" : "Telangana"
+    }
+    
+}
+{
+    "accountNumber" : 40879154260,
+    "firstName" : "karthik",
+    "lastName" : "pasupuleti",
+    "mobile" : 9491524480,
+    "email" : "karthik@gmail.com",
+    "pancardNumber" : "HBL65FX",
+    "adharNumber" : "695165872230",
+    "customerAddress" : {
+        "houseNumber":"8-9/121",
+        "street" : "indiramma Colony",
+        "state" : "kerala"
+    }
+    
+}
+{
+    "accountNumber" : 9149023206,
+    "firstName" : "kiran",
+    "lastName" : "mallavarapu",
+    "mobile" : 8000497165,
+    "email" : "kiran@gmail.com",
+    "pancardNumber" : "HC67RT",
+    "adharNumber" : "658986451516",
+    "customerAddress" : {
+        "houseNumber":"8-121",
+        "street" : "x Colony",
+        "state" : "ap"
+    }
+    
+}
+--------------(with out pancard and adhar)
+{
+    "accountNumber" : 868815505291,
+    "firstName" : "Jackson",
+    "lastName" : "Smith",
+    "mobile" : 8989067165,
+    "email" : "smith@gmail.com",
+    "adharNumber" : "893456530936",
+    "pancardNumber" : "HBD65VE",
+    "customerAddress" : {
+        "houseNumber":"21/3-78",
+        "street" : "gachibowli",
+        "state" : "Telangana"
+    }
+    
+}
+
+{
+    "accountNumber" : 862411560751,
+    "firstName" : "sashu",
+    "lastName" : "potla",
+    "mobile" : 9681522051,
+    "email" : "sashu@gmail.com",
+    "pancardNumber" : "HCX54ER",
+    "customerAddress" : {
+        "houseNumber":"32/200",
+        "street" : "sri colony",
+        "state" : "Karnataka"
+    }
+    
+}
+
+{
+    "accountNumber" : 70965437161,
+    "firstName" : "priya",
+    "lastName" : "thota",
+    "mobile" : 9491524480,
+    "email" : "priya@gmail.com",
+    "customerAddress" : {
+        "houseNumber":"32-8/200",
+        "street" : "sri nagar colony",
+        "state" : "Karnataka"
+    }
+    
+}
+******************************************************************
+In pancarddetails databse:
+
+{
+    "pancardNumber" : "HBY908DS",
+    "firstName" : "Suresh",
+    "lastName" :"Mallela",
+    "dateOfBirth" : "22-03-1987"
+}
+
+{
+    "pancardNumber" : "HBO67RT",
+    "firstName" : "Ramesh",
+    "lastName" : "velluri",
+    "dateOfBirth" : "22-03-1987"
+}
+
+{ 
+    "pancardNumber" : "HBL65FX",
+    "firstName" : "karthik",
+    "lastName" : "pasupuleti",
+    "dateOfBirth" : "22-03-1987"
+}
+
+{ 
+    "pancardNumber" : "HBD65VE",
+    "firstName" : "Jackson",
+    "lastName" : "Smith",
+    "dateOfBirth" : "22-12-1965"
+}
+{
+"pancardNumber" : "HC67RT",
+ "firstName" : "kiran",
+    "lastName" : "mallavarapu",
+ "dateOfBirth" : "25-06-1900"
+    
+}

@@ -1,0 +1,33 @@
+server:
+  port: 3001
+  servlet:
+    context-path: /adharapp
+
+spring:
+  application:
+    name: adhar-service
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/adhardetails
+    username: root
+    password: root
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+      #  - health
+  endpoint:
+    health:
+      show-details: always
+      
+    
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:8761/eureka/
